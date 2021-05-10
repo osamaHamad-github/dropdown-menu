@@ -1,0 +1,5 @@
+I have created a nice little dropdown menu for you
+I learned how to do this during the assignment
+this is the reference I used which helped a lot: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover 
+I learned that drop down menus are heavily based on css 
+the drop down effect is created when the css display is set to block

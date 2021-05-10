@@ -1,0 +1,42 @@
+.menu {
+
+}
+
+.menu-name {
+  font-family: Arial, Helvetica, sans-serif;
+  color: purple;
+  font-size: 16px;
+  margin: 0;
+  padding: 5px;
+  border: 1px solid purple;
+  width: 100px;
+  text-align: center;
+}
+
+.menu-name:hover {
+  background-color: white;
+}
+
+.dropdown a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 14px; 
+  padding: 5px;
+}
+
+.dropdown {
+  position: absolute;
+  display: none;
+  background-color: lightgrey;
+  width: 100px;
+}
+
+.dropdown a:hover {
+  background-color: lightskyblue;
+}
+
+.menu:hover .dropdown {
+  display: block;
+}
